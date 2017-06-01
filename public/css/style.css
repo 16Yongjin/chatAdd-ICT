@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { font-family: 'Iropke Batang', serif; }
+
+.toggle-icon {
+    position: absolute;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-right: 20px;
+    right: 0;
+    z-index:99999;
+}
+
+.header-div {
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+header {
+    padding-top: 5px;
+    padding-left: 3%;
+    height: vp;
+    box-shadow: 0 2px 2px #444444;
+    z-index:99998;
+}
+
+header img {
+    float: left;
+    width: 40px;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+.name-modify {
+    border-radius: 2px;
+    border: 1.5px solid #000;
+    float: right;
+    font-size: 140%;
+    padding: 2px;
+    margin-right: 56px;
+    margin-top: 10px;
+    transition: box-shadow 0.2s;
+}
+
+.name-modify:hover,
+.name-modify:active {
+    box-shadow: 1px 1px 1px #444444;
+}
+
+
+
+
+h1 {
+    vertical-align: middle;
+    font-size: 40px;
+    display: inline;
+}
+
+header {
+    border-bottom: 2px solid #000
+}
+
+#message-filter {
+
+}
+
+.message-box {
+    display: block;
+    position: relative;
+    border: 2px solid #000;
+    margin: 10px;
+    height: 100%;
+    box-shadow: 3px 3px 3px #444444;
+
+}
+
+.message-list {
+    height: 78vh;
+    width: auto;
+    overflow-y:auto;
+}
+
+.message-list-full {
+    height: 88vh;
+    width: auto;
+    overflow-y:auto;
+ 
+}
+
+.input-form {
+    border-top: 2px solid #000;
+    padding: 10px;
+    width: 100%;
+
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 1%;
+    margin-right: 2%;
+    margin-left: 3%
+    border-radius: 3px;
+    border: 1px solid #ccc;
+
+}
+
+button {
+    width: 16%;
+}
+
+foo {
+    color: rgb(240, 255, 255)
+}
+
+.message-bal div {
+    border-bottom: 1px solid black;
+
+}
+
+.message-bal h3 {
+    margin-left: 12px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-right: 12px;
+}
+
+.message-bal h4 {
+    color: #242424;
+    margin-top: 0px;
+    margin-left: 17px;
+    margin-right: 15px;
+    margin-bottom: 2px;
+    padding-top: 4px;
+    
+}
+
+.sys-msg {
+    text-align: center;
+    color: crimson;
+    padding: px 0px;
+    font-size: 113%;
+    font-weight: bold;
+    
+}
+
+.url-img {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 8px;
+}
+
+
+.ballon-img {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.ballon-msg {
+    text-align: center;
+}
+
+
+.extra-div {
+    border-bottom: 1px solid transparent;
+}
+
+
+
+/* Rainbow */
+.rainbow { 
+
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+.rainbow h3 {
+    color: #fff;
+}
+
+.rainbow h4 {
+    color: #fff;
+}

@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1200px) {
+
+    
+}
+
+
+/* Small tablet to Big tablet: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+
+}
+
+
+/* Small phones to Small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+
+
+    
+.message-list h3 {
+    font-size: 150%;
+}
+    .message-list h4 {
+    font-size: 120%;
+}
+    
+.message-bal h3 {
+    margin-left: 7px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-right: 7px;
+    font-size: 22px;
+    
+}
+
+.message-bal h4 {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+    
+
+    
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    
+
+.message-list h3 {
+    font-size: 130%;
+}
+    .message-list h4 {
+    font-size: 110%;
+}
+    
+    .message-bal h3 {
+    margin-left: 6px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-right: 6px;
+    
+}
+
+.message-bal h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+    
+.name-modify {
+    font-size: 120%;
+    margin-right: 55px;
+    margin-top: 12px;
+}
+.ballon-img {
+    width: 44%;
+    margin-left: 28%;
+}
+    
+
+
+}
+
+
